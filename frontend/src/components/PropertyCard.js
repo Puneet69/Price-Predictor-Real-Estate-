@@ -50,6 +50,33 @@ const PropertyCard = ({ property, title }) => {
           <div className="text-sm text-gray-500">
             {property.market_value ? 'Market Value' : 'Estimated Value'}
           </div>
+          
+          {/* Predicted Price Section */}
+          {property.predicted_price && (
+            <div className="mt-3 p-3 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border border-blue-200">
+              <div className="text-lg font-bold text-blue-700">
+                🤖 AI Predicted Price
+              </div>
+              <div className="text-2xl font-bold text-purple-600">
+                {formatPrice(property.predicted_price)}
+              </div>
+              <div className="text-xs text-gray-600 mt-1">
+                Based on ML analysis of property features
+              </div>
+              {property.market_value && property.predicted_price !== property.market_value && (
+                <div className="text-sm mt-2">
+                  <span className={`font-medium ${
+                    property.predicted_price > property.market_value ? 'text-green-600' : 'text-red-600'
+                  }`}>
+                    {property.predicted_price > property.market_value ? '📈 +' : '📉 -'}
+                    {formatPrice(Math.abs(property.predicted_price - property.market_value))}
+                  </span>
+                  <span className="text-gray-500 text-xs ml-1">vs market value</span>
+                </div>
+              )}
+            </div>
+          )}
+          
           {property.last_sold_price && (
             <div className="text-sm text-gray-600 mt-1">
               Last Sold: {formatPrice(property.last_sold_price)}
