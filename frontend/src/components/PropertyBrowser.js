@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
 const PropertyBrowser = ({ onPropertySelect, selectedAddresses = [] }) => {
@@ -9,11 +9,7 @@ const PropertyBrowser = ({ onPropertySelect, selectedAddresses = [] }) => {
 
   const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 
-  useEffect(() => {
-    loadProperties();
-  }, []);
-
-  const loadProperties = async () => {
+  const loadProperties = useCallback(async () => {
     try {
       const response = await axios.get(`${API_BASE_URL}/properties`);
       if (response.data && response.data.properties) {
@@ -24,7 +20,11 @@ const PropertyBrowser = ({ onPropertySelect, selectedAddresses = [] }) => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [API_BASE_URL]);
+
+  useEffect(() => {
+    loadProperties();
+  }, [loadProperties]);
 
   const filteredProperties = properties.filter(property => {
     const matchesSearch = !searchQuery || 

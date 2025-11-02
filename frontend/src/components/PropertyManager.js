@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 const PropertyManager = () => {
   const [properties, setProperties] = useState([]);
@@ -27,13 +27,7 @@ const PropertyManager = () => {
 
   const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 
-  // Load properties on component mount
-  useEffect(() => {
-    loadProperties();
-    loadStats();
-  }, []);
-
-  const loadProperties = async () => {
+  const loadProperties = useCallback(async () => {
     setLoading(true);
     try {
       const response = await fetch(`${API_BASE}/properties`);
@@ -46,9 +40,9 @@ const PropertyManager = () => {
       console.error('Error loading properties:', error);
     }
     setLoading(false);
-  };
+  }, [API_BASE]);
 
-  const loadStats = async () => {
+  const loadStats = useCallback(async () => {
     try {
       const response = await fetch(`${API_BASE}/properties/stats/summary`);
       if (response.ok) {
@@ -61,7 +55,13 @@ const PropertyManager = () => {
     } catch (error) {
       console.error('Error loading stats:', error);
     }
-  };
+  }, [API_BASE]);
+
+  // Load properties on component mount
+  useEffect(() => {
+    loadProperties();
+    loadStats();
+  }, [loadProperties, loadStats]);
 
   const handleAddProperty = async (e) => {
     e.preventDefault();
