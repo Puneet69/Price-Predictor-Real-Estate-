@@ -34,7 +34,9 @@ print("ℹ️  Using hybrid JSON + MongoDB system")
 # Import MongoDB storage for custom properties
 try:
     from mongodb_storage import PropertyMongoStorage
-    mongo_storage = PropertyMongoStorage()
+    # Use environment variable for MongoDB URL in production
+    mongodb_url = os.getenv('MONGODB_URI', 'mongodb://localhost:27017/property_comparison')
+    mongo_storage = PropertyMongoStorage(connection_string=mongodb_url)
     print("✅ MongoDB storage initialized for custom properties")
 except ImportError as e:
     print(f"Warning: Could not load MongoDB storage: {e}")

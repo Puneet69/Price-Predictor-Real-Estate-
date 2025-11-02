@@ -1,0 +1,48 @@
+name: property-comparison-app
+services:
+- name: backend
+  source_dir: /backend
+  github:
+    repo: Puneet69/Price-Predictor-Real-Estate-
+    branch: main
+  run_command: gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:$PORT
+  environment_slug: python
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  envs:
+  - key: MONGODB_URI
+    value: ${mongodb.CONNECTION_STRING}
+  - key: DEBUG
+    value: "false"
+  - key: ENVIRONMENT
+    value: "production"
+  routes:
+  - path: /api
+  health_check:
+    http_path: /health
+
+- name: frontend
+  source_dir: /frontend
+  github:
+    repo: Puneet69/Price-Predictor-Real-Estate-
+    branch: main
+  build_command: npm ci && npm run build
+  run_command: npx serve -s build -l $PORT
+  environment_slug: node-js
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  envs:
+  - key: REACT_APP_API_URL
+    value: ${APP_URL}/api
+  - key: GENERATE_SOURCEMAP
+    value: "false"
+  routes:
+  - path: /
+  health_check:
+    http_path: /
+
+databases:
+- name: mongodb
+  engine: MONGODB
+  version: "6"
+  size: basic
