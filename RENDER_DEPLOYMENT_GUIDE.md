@@ -98,29 +98,21 @@ Value: https://property-comparison-backend.onrender.com
 
 I'll create Render-specific configuration files for easier deployment:
 
-### **render.yaml** (Optional - for infrastructure as code)
+### **render.yaml** (Backend Only - Frontend deployed separately)
 ```yaml
 services:
   - type: web
     name: property-comparison-backend
     env: python
-    region: oregon
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: MONGODB_URI
         value: mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mongodb.net/property_comparison?retryWrites=true&w=majority&appName=RealEstate
-    
-  - type: web
-    name: property-comparison-frontend
-    env: static
-    region: oregon
-    buildCommand: npm ci && npm run build
-    staticPublishPath: ./build
-    envVars:
-      - key: REACT_APP_API_URL
-        value: https://property-comparison-backend.onrender.com
 ```
+
+**Note**: Static sites cannot be configured in render.yaml and must be deployed separately through the Render dashboard.
 
 ---
 

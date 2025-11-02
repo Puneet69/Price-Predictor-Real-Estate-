@@ -12,12 +12,10 @@ services:
       - key: PYTHON_VERSION
         value: "3.11"
 
-  - type: static
-    name: property-comparison-frontend  
-    buildCommand: npm ci && npm run build
-    staticPublishPath: ./build
-    envVars:
-      - key: REACT_APP_API_URL
-        value: https://property-comparison-backend.onrender.com
-      - key: NODE_VERSION
-        value: "18"
+# Note: Static sites must be deployed separately through Render dashboard
+# Frontend deployment:
+# 1. New + → Static Site
+# 2. Root Directory: frontend  
+# 3. Build Command: npm ci && npm run build
+# 4. Publish Directory: build
+# 5. Environment Variable: REACT_APP_API_URL=https://property-comparison-backend.onrender.com
