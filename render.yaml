@@ -12,6 +12,10 @@ services:
         value: mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mongodb.net/property_comparison?retryWrites=true&w=majority&appName=RealEstate
       - key: PYTHON_VERSION
         value: "3.11.9"
+      - key: ENVIRONMENT
+        value: "production"
+      - key: DEBUG
+        value: "false"
 
 # Note: Static sites must be deployed separately through Render dashboard
 # Frontend deployment:
