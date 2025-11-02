@@ -5,7 +5,7 @@ import LoadingSpinner from './components/LoadingSpinner';
 import PropertyManager from './components/PropertyManager';
 import PropertyBrowser from './components/PropertyBrowser';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 
 function App() {
   const [activeTab, setActiveTab] = useState('compare'); // 'compare' or 'manage'
