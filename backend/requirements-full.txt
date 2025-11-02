@@ -1,0 +1,15 @@
+# Full requirements with data science libraries
+# Use this if you need chart generation functionality
+# Note: Requires C++ compiler in deployment environment
+
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+pymongo==4.6.0
+pandas==2.1.4
+matplotlib==3.8.2
+seaborn==0.13.0
+numpy==1.26.2
+python-multipart==0.0.6
+python-dotenv==1.0.0
+gunicorn==21.2.0
