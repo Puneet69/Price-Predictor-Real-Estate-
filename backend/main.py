@@ -24,8 +24,8 @@ except ImportError as e:
     print(f"Warning: Graph libraries not available: {e}")
     GRAPHING_AVAILABLE = False
 
-# Add dataset directory to path
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'dataset'))
+# Add dataset directory to path (now in backend/dataset)
+sys.path.append(os.path.join(os.path.dirname(__file__), 'dataset'))
 
 # Skip the problematic PropertyDatasetLoader for now
 dataset_loader = None
@@ -45,7 +45,7 @@ except ImportError as e:
 # Import Property Data Manager (JSON files for base properties)
 try:
     from property_data_manager import PropertyDataManager
-    property_manager = PropertyDataManager(os.path.join(os.path.dirname(__file__), '..', 'dataset'))
+    property_manager = PropertyDataManager(os.path.join(os.path.dirname(__file__), 'dataset'))
     print("✅ Property data manager initialized with JSON files")
 except ImportError as e:
     print(f"Warning: Could not load property data manager: {e}")

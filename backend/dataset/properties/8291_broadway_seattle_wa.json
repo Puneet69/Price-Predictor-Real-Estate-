@@ -1,0 +1,48 @@
+{
+  "id": 9,
+  "title": "4 BHK Duplex with Home Office",
+  "address": "8291 Broadway, Seattle, WA",
+  "property_type": "SFH",
+  "lot_size": 6972,
+  "square_footage": 2500,
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "garage": 1,
+  "year_built": 2009,
+  "market_value": 920000,
+  "last_sold_price": 781070,
+  "last_sold_date": "2023-04-25",
+  "property_tax": 11040,
+  "hoa_fee": 0,
+  "amenities": [
+    "home_office",
+    "solar_panels",
+    "garage"
+  ],
+  "neighborhood_features": [
+    "tech_hub",
+    "coffee_culture",
+    "mountains",
+    "waterfront"
+  ],
+  "condition": "good",
+  "city": "Seattle",
+  "state": "WA",
+  "neighborhood": "Seattle Residential",
+  "image_url": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+  "features": [
+    "4 BHK Duplex with Home Office",
+    "4 bedrooms, 3 bathrooms",
+    "2,500 sq ft",
+    "Built in 2009",
+    "Home Office",
+    "Solar Panels",
+    "Two-Car Garage"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.6 miles",
+    "Public transportation - 0.1 miles",
+    "School - 0.6 miles",
+    "Hospital - 2.4 miles"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 2,
+  "title": "2 BHK Condo with Sea View",
+  "address": "7538 Maple Drive, Miami, FL",
+  "property_type": "Condo",
+  "lot_size": 0,
+  "square_footage": 1200,
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "garage": 1,
+  "year_built": 1983,
+  "market_value": 380000,
+  "last_sold_price": 347744,
+  "last_sold_date": "2024-11-05",
+  "property_tax": 4560,
+  "hoa_fee": 146,
+  "amenities": [
+    "beach_access",
+    "security_system",
+    "balcony"
+  ],
+  "neighborhood_features": [
+    "beach_access",
+    "nightlife",
+    "international_cuisine",
+    "boating"
+  ],
+  "condition": "good",
+  "city": "Miami",
+  "state": "FL",
+  "neighborhood": "Miami Residential",
+  "image_url": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg",
+  "features": [
+    "2 BHK Condo with Sea View",
+    "2 bedrooms, 2 bathrooms",
+    "1,200 sq ft",
+    "Built in 1983",
+    "Beach Access",
+    "Security",
+    "Balcony"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.3 miles",
+    "Public transportation - 0.3 miles",
+    "School - 0.2 miles",
+    "Hospital - 2.0 miles"
+  ]
+}

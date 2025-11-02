@@ -1,0 +1,48 @@
+{
+  "id": 8,
+  "title": "Modern Townhouse with Backyard",
+  "address": "4295 Park Avenue, Dallas, TX",
+  "property_type": "SFH",
+  "lot_size": 6100,
+  "square_footage": 1800,
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "garage": 2,
+  "year_built": 1995,
+  "market_value": 600000,
+  "last_sold_price": 495357,
+  "last_sold_date": "2023-03-16",
+  "property_tax": 7200,
+  "hoa_fee": 0,
+  "amenities": [
+    "garden",
+    "pool",
+    "pet_friendly"
+  ],
+  "neighborhood_features": [
+    "business_district",
+    "shopping_centers",
+    "good_schools",
+    "family_friendly"
+  ],
+  "condition": "fair",
+  "city": "Dallas",
+  "state": "TX",
+  "neighborhood": "Dallas Residential",
+  "image_url": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
+  "features": [
+    "Modern Townhouse with Backyard",
+    "3 bedrooms, 3 bathrooms",
+    "1,800 sq ft",
+    "Built in 1995",
+    "Backyard",
+    "Community Pool",
+    "Pet Friendly"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.7 miles",
+    "Public transportation - 0.4 miles",
+    "School - 0.5 miles",
+    "Hospital - 3.9 miles"
+  ]
+}

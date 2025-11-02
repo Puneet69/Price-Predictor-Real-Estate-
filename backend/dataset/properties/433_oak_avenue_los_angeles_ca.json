@@ -1,0 +1,48 @@
+{
+  "id": 3,
+  "title": "Luxury Villa with Private Garden",
+  "address": "433 Oak Avenue, Los Angeles, CA",
+  "property_type": "SFH",
+  "lot_size": 6580,
+  "square_footage": 2800,
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "garage": 1,
+  "year_built": 2009,
+  "market_value": 850000,
+  "last_sold_price": 704712,
+  "last_sold_date": "2023-08-17",
+  "property_tax": 10200,
+  "hoa_fee": 0,
+  "amenities": [
+    "garden",
+    "smart_home",
+    "garage"
+  ],
+  "neighborhood_features": [
+    "entertainment_district",
+    "beaches",
+    "highways",
+    "dining"
+  ],
+  "condition": "excellent",
+  "city": "Los Angeles",
+  "state": "CA",
+  "neighborhood": "Los Angeles Residential",
+  "image_url": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
+  "features": [
+    "Luxury Villa with Private Garden",
+    "4 bedrooms, 3 bathrooms",
+    "2,800 sq ft",
+    "Built in 2009",
+    "Private Garden",
+    "Smart Home",
+    "Garage"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.3 miles",
+    "Public transportation - 0.2 miles",
+    "School - 0.6 miles",
+    "Hospital - 2.4 miles"
+  ]
+}

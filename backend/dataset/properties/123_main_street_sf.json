@@ -1,0 +1,35 @@
+{
+  "address": "123 Main Street, San Francisco, CA 94102",
+  "property_type": "SFH",
+  "lot_area": 5500,
+  "building_area": 0,
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "year_built": 2010,
+  "has_pool": true,
+  "has_garage": true,
+  "school_rating": 9,
+  "neighborhood": "Pacific Heights",
+  "city": "San Francisco",
+  "state": "CA",
+  "zip_code": "94102",
+  "market_value": 1250000,
+  "last_sold_date": "2023-05-15",
+  "last_sold_price": 1100000,
+  "property_tax": 15000,
+  "hoa_fee": 0,
+  "square_footage_per_dollar": 0.44,
+  "features": [
+    "Hardwood floors",
+    "Updated kitchen",
+    "City views",
+    "Garage parking",
+    "Swimming pool"
+  ],
+  "nearby_amenities": [
+    "Golden Gate Park - 0.8 miles",
+    "Public transportation - 0.2 miles",
+    "Shopping center - 0.5 miles",
+    "Elementary school - 0.3 miles"
+  ]
+}

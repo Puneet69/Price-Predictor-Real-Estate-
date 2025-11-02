@@ -1,0 +1,35 @@
+{
+  "address": "456 Oak Avenue, Los Angeles, CA 90210",
+  "property_type": "Condo",
+  "lot_area": 0,
+  "building_area": 1800,
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "year_built": 2018,
+  "has_pool": false,
+  "has_garage": true,
+  "school_rating": 8,
+  "neighborhood": "Beverly Hills",
+  "city": "Los Angeles",
+  "state": "CA",
+  "zip_code": "90210",
+  "market_value": 950000,
+  "last_sold_date": "2024-02-20",
+  "last_sold_price": 875000,
+  "property_tax": 11000,
+  "hoa_fee": 650,
+  "square_footage_per_dollar": 528,
+  "features": [
+    "Modern appliances",
+    "Balcony with city views",
+    "In-unit laundry",
+    "Granite countertops",
+    "Covered parking"
+  ],
+  "nearby_amenities": [
+    "Rodeo Drive - 0.5 miles",
+    "Metro station - 0.7 miles",
+    "Beverly Hills Hotel - 0.3 miles",
+    "High school - 0.4 miles"
+  ]
+}

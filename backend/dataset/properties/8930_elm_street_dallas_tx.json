@@ -1,0 +1,48 @@
+{
+  "id": 8,
+  "title": "Modern Townhouse with Backyard",
+  "address": "8930 Elm Street, Dallas, TX",
+  "property_type": "SFH",
+  "lot_size": 5032,
+  "square_footage": 1800,
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "garage": 1,
+  "year_built": 2001,
+  "market_value": 600000,
+  "last_sold_price": 544785,
+  "last_sold_date": "2023-10-20",
+  "property_tax": 7200,
+  "hoa_fee": 0,
+  "amenities": [
+    "garden",
+    "pool",
+    "pet_friendly"
+  ],
+  "neighborhood_features": [
+    "business_district",
+    "shopping_centers",
+    "good_schools",
+    "family_friendly"
+  ],
+  "condition": "excellent",
+  "city": "Dallas",
+  "state": "TX",
+  "neighborhood": "Dallas Residential",
+  "image_url": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
+  "features": [
+    "Modern Townhouse with Backyard",
+    "3 bedrooms, 3 bathrooms",
+    "1,800 sq ft",
+    "Built in 2001",
+    "Backyard",
+    "Community Pool",
+    "Pet Friendly"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.7 miles",
+    "Public transportation - 0.2 miles",
+    "School - 0.4 miles",
+    "Hospital - 3.3 miles"
+  ]
+}

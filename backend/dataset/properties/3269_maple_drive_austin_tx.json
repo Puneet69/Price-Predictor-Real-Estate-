@@ -1,0 +1,48 @@
+{
+  "id": 4,
+  "title": "1 BHK Budget Apartment",
+  "address": "3269 Maple Drive, Austin, TX",
+  "property_type": "Condo",
+  "lot_size": 0,
+  "square_footage": 800,
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "garage": 2,
+  "year_built": 2006,
+  "market_value": 250000,
+  "last_sold_price": 202282,
+  "last_sold_date": "2024-04-07",
+  "property_tax": 3000,
+  "hoa_fee": 628,
+  "amenities": [
+    "fitness_center",
+    "laundry",
+    "security_system"
+  ],
+  "neighborhood_features": [
+    "music_scene",
+    "food_trucks",
+    "tech_companies",
+    "outdoor_activities"
+  ],
+  "condition": "good",
+  "city": "Austin",
+  "state": "TX",
+  "neighborhood": "Austin Residential",
+  "image_url": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+  "features": [
+    "1 BHK Budget Apartment",
+    "1 bedrooms, 1 bathrooms",
+    "800 sq ft",
+    "Built in 2006",
+    "Gym",
+    "Laundry",
+    "Security"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.5 miles",
+    "Public transportation - 0.4 miles",
+    "School - 0.5 miles",
+    "Hospital - 2.4 miles"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 1,
+  "title": "3 BHK Apartment in Downtown",
+  "address": "5949 Elm Street, New York, NY",
+  "property_type": "Condo",
+  "lot_size": 0,
+  "square_footage": 1500,
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "garage": 1,
+  "year_built": 2021,
+  "market_value": 450000,
+  "last_sold_price": 405879,
+  "last_sold_date": "2025-04-30",
+  "property_tax": 5400,
+  "hoa_fee": 348,
+  "amenities": [
+    "fitness_center",
+    "pool",
+    "garage"
+  ],
+  "neighborhood_features": [
+    "subway_access",
+    "restaurants",
+    "shopping",
+    "museums"
+  ],
+  "condition": "excellent",
+  "city": "New York",
+  "state": "NY",
+  "neighborhood": "New York Central",
+  "image_url": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg",
+  "features": [
+    "3 BHK Apartment in Downtown",
+    "3 bedrooms, 2 bathrooms",
+    "1,500 sq ft",
+    "Built in 2021",
+    "Gym",
+    "Swimming Pool",
+    "Parking"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.6 miles",
+    "Public transportation - 0.2 miles",
+    "School - 0.5 miles",
+    "Hospital - 2.8 miles"
+  ]
+}

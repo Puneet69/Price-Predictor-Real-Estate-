@@ -1,0 +1,48 @@
+{
+  "id": 9,
+  "title": "4 BHK Duplex with Home Office",
+  "address": "3994 Main Street, Seattle, WA",
+  "property_type": "SFH",
+  "lot_size": 3393,
+  "square_footage": 2500,
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "garage": 1,
+  "year_built": 1992,
+  "market_value": 920000,
+  "last_sold_price": 870373,
+  "last_sold_date": "2024-10-01",
+  "property_tax": 11040,
+  "hoa_fee": 0,
+  "amenities": [
+    "home_office",
+    "solar_panels",
+    "garage"
+  ],
+  "neighborhood_features": [
+    "tech_hub",
+    "coffee_culture",
+    "mountains",
+    "waterfront"
+  ],
+  "condition": "excellent",
+  "city": "Seattle",
+  "state": "WA",
+  "neighborhood": "Seattle Residential",
+  "image_url": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+  "features": [
+    "4 BHK Duplex with Home Office",
+    "4 bedrooms, 3 bathrooms",
+    "2,500 sq ft",
+    "Built in 1992",
+    "Home Office",
+    "Solar Panels",
+    "Two-Car Garage"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.6 miles",
+    "Public transportation - 0.4 miles",
+    "School - 0.2 miles",
+    "Hospital - 2.2 miles"
+  ]
+}

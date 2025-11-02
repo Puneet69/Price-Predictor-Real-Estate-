@@ -1,0 +1,48 @@
+{
+  "id": 7,
+  "title": "Lakefront House with Dock",
+  "address": "6050 Elm Street, Chicago, IL",
+  "property_type": "SFH",
+  "lot_size": 8044,
+  "square_footage": 2000,
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "garage": 1,
+  "year_built": 2017,
+  "market_value": 750000,
+  "last_sold_price": 608819,
+  "last_sold_date": "2025-01-31",
+  "property_tax": 9000,
+  "hoa_fee": 0,
+  "amenities": [
+    "private_dock",
+    "garage",
+    "bbq_area"
+  ],
+  "neighborhood_features": [
+    "lakefront",
+    "architecture",
+    "public_transport",
+    "cultural_events"
+  ],
+  "condition": "good",
+  "city": "Chicago",
+  "state": "IL",
+  "neighborhood": "Chicago Residential",
+  "image_url": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg",
+  "features": [
+    "Lakefront House with Dock",
+    "3 bedrooms, 2 bathrooms",
+    "2,000 sq ft",
+    "Built in 2017",
+    "Private Dock",
+    "Boat Parking",
+    "BBQ Area"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.4 miles",
+    "Public transportation - 0.5 miles",
+    "School - 0.3 miles",
+    "Hospital - 1.4 miles"
+  ]
+}

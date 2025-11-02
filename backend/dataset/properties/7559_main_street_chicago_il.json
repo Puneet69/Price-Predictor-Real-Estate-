@@ -1,0 +1,48 @@
+{
+  "id": 7,
+  "title": "Lakefront House with Dock",
+  "address": "7559 Main Street, Chicago, IL",
+  "property_type": "SFH",
+  "lot_size": 5277,
+  "square_footage": 2000,
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "garage": 1,
+  "year_built": 2004,
+  "market_value": 750000,
+  "last_sold_price": 691583,
+  "last_sold_date": "2023-10-23",
+  "property_tax": 9000,
+  "hoa_fee": 0,
+  "amenities": [
+    "private_dock",
+    "garage",
+    "bbq_area"
+  ],
+  "neighborhood_features": [
+    "lakefront",
+    "architecture",
+    "public_transport",
+    "cultural_events"
+  ],
+  "condition": "good",
+  "city": "Chicago",
+  "state": "IL",
+  "neighborhood": "Chicago Residential",
+  "image_url": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg",
+  "features": [
+    "Lakefront House with Dock",
+    "3 bedrooms, 2 bathrooms",
+    "2,000 sq ft",
+    "Built in 2004",
+    "Private Dock",
+    "Boat Parking",
+    "BBQ Area"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.8 miles",
+    "Public transportation - 0.2 miles",
+    "School - 0.4 miles",
+    "Hospital - 1.2 miles"
+  ]
+}
