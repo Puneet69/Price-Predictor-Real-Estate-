@@ -51,7 +51,7 @@
 ```
 Runtime: Python 3
 Plan: Free
-Region: Oregon (US West)
+Region: Auto-assigned (free tier)
 Auto-Deploy: Yes
 ```
 
@@ -59,7 +59,7 @@ Auto-Deploy: Yes
 ```
 Environment: Static Site
 Plan: Free
-Region: Oregon (US West)
+Region: Auto-assigned (free tier)
 Auto-Deploy: Yes
 ```
 

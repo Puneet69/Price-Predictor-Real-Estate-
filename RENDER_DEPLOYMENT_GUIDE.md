@@ -147,7 +147,10 @@ services:
 - ✅ **Web Services**: 750 hours/month FREE
 - ✅ **Databases**: PostgreSQL free tier (not needed - using MongoDB Atlas)
 - ✅ **SSL**: Free HTTPS certificates
-- ❌ **Limitation**: Services sleep after 15 minutes of inactivity
+- ❌ **Limitations**: 
+  - Services sleep after 15 minutes of inactivity
+  - No disk storage (uses ephemeral storage)
+  - No custom regions (auto-assigned)
 
 ### **Paid Plans:**
 - **Starter**: $7/month per service (no sleeping)

@@ -2,7 +2,6 @@ services:
   - type: web
     name: property-comparison-backend
     env: python
-    region: oregon
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn main:app --host 0.0.0.0 --port $PORT
@@ -12,15 +11,10 @@ services:
         value: mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mongodb.net/property_comparison?retryWrites=true&w=majority&appName=RealEstate
       - key: PYTHON_VERSION
         value: "3.11"
-    disk:
-      name: backend-disk
-      mountPath: /tmp
-      sizeGB: 1
 
   - type: web
     name: property-comparison-frontend  
     env: static
-    region: oregon
     plan: free
     buildCommand: npm ci && npm run build
     staticPublishPath: ./build
