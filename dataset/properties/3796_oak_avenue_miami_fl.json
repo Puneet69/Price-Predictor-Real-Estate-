@@ -1,0 +1,48 @@
+{
+  "id": 2,
+  "title": "2 BHK Condo with Sea View",
+  "address": "3796 Oak Avenue, Miami, FL",
+  "property_type": "Condo",
+  "lot_size": 0,
+  "square_footage": 1200,
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "garage": 2,
+  "year_built": 1988,
+  "market_value": 380000,
+  "last_sold_price": 320023,
+  "last_sold_date": "2023-09-01",
+  "property_tax": 4560,
+  "hoa_fee": 183,
+  "amenities": [
+    "beach_access",
+    "security_system",
+    "balcony"
+  ],
+  "neighborhood_features": [
+    "beach_access",
+    "nightlife",
+    "international_cuisine",
+    "boating"
+  ],
+  "condition": "excellent",
+  "city": "Miami",
+  "state": "FL",
+  "neighborhood": "Miami Residential",
+  "image_url": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg",
+  "features": [
+    "2 BHK Condo with Sea View",
+    "2 bedrooms, 2 bathrooms",
+    "1,200 sq ft",
+    "Built in 1988",
+    "Beach Access",
+    "Security",
+    "Balcony"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.6 miles",
+    "Public transportation - 0.2 miles",
+    "School - 0.2 miles",
+    "Hospital - 1.0 miles"
+  ]
+}

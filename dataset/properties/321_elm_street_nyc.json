@@ -1,0 +1,35 @@
+{
+  "address": "321 Elm Street, New York, NY 10001",
+  "property_type": "Condo",
+  "lot_area": 0,
+  "building_area": 1200,
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "year_built": 2020,
+  "has_pool": true,
+  "has_garage": false,
+  "school_rating": 6,
+  "neighborhood": "Midtown",
+  "city": "New York",
+  "state": "NY",
+  "zip_code": "10001",
+  "market_value": 750000,
+  "last_sold_date": "2024-01-15",
+  "last_sold_price": 720000,
+  "property_tax": 18000,
+  "hoa_fee": 850,
+  "square_footage_per_dollar": 625,
+  "features": [
+    "High-rise building",
+    "Doorman",
+    "Rooftop pool",
+    "Fitness center",
+    "City skyline views"
+  ],
+  "nearby_amenities": [
+    "Times Square - 0.8 miles",
+    "Subway station - 0.1 miles",
+    "Central Park - 1.5 miles",
+    "Public library - 0.3 miles"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 5,
+  "title": "Penthouse with Skyline View",
+  "address": "8200 Maple Drive, San Francisco, CA",
+  "property_type": "SFH",
+  "lot_size": 9677,
+  "square_footage": 3500,
+  "bedrooms": 5,
+  "bathrooms": 4,
+  "garage": 0,
+  "year_built": 2016,
+  "market_value": 1200000,
+  "last_sold_price": 1025704,
+  "last_sold_date": "2023-11-14",
+  "property_tax": 14400,
+  "hoa_fee": 0,
+  "amenities": [
+    "balcony",
+    "smart_home",
+    "private_elevator"
+  ],
+  "neighborhood_features": [
+    "tech_hub",
+    "public_transport",
+    "parks",
+    "restaurants"
+  ],
+  "condition": "good",
+  "city": "San Francisco",
+  "state": "CA",
+  "neighborhood": "San Francisco Residential",
+  "image_url": "https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg",
+  "features": [
+    "Penthouse with Skyline View",
+    "5 bedrooms, 4 bathrooms",
+    "3,500 sq ft",
+    "Built in 2016",
+    "Rooftop Terrace",
+    "Smart Security",
+    "Private Elevator"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.8 miles",
+    "Public transportation - 0.1 miles",
+    "School - 0.3 miles",
+    "Hospital - 1.4 miles"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 6,
+  "title": "Cozy Studio in Central Park",
+  "address": "4404 Broadway, New York, NY",
+  "property_type": "Condo",
+  "lot_size": 0,
+  "square_footage": 600,
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "garage": 1,
+  "year_built": 2018,
+  "market_value": 300000,
+  "last_sold_price": 262153,
+  "last_sold_date": "2025-04-30",
+  "property_tax": 3600,
+  "hoa_fee": 349,
+  "amenities": [
+    "park_view",
+    "24/7_concierge",
+    "fitness_center"
+  ],
+  "neighborhood_features": [
+    "subway_access",
+    "restaurants",
+    "shopping",
+    "museums"
+  ],
+  "condition": "good",
+  "city": "New York",
+  "state": "NY",
+  "neighborhood": "New York Residential",
+  "image_url": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg",
+  "features": [
+    "Cozy Studio in Central Park",
+    "1 bedrooms, 1 bathrooms",
+    "600 sq ft",
+    "Built in 2018",
+    "Park View",
+    "24/7 Concierge",
+    "Fitness Center"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.7 miles",
+    "Public transportation - 0.3 miles",
+    "School - 0.4 miles",
+    "Hospital - 2.0 miles"
+  ]
+}

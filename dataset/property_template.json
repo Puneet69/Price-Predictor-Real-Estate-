@@ -1,0 +1,32 @@
+{
+  "address": "YOUR_PROPERTY_ADDRESS_HERE",
+  "property_type": "SFH or Condo",
+  "lot_area": 0,
+  "building_area": 0,
+  "bedrooms": 0,
+  "bathrooms": 0,
+  "year_built": 2000,
+  "has_pool": false,
+  "has_garage": false,
+  "school_rating": 5,
+  "neighborhood": "NEIGHBORHOOD_NAME",
+  "city": "CITY_NAME", 
+  "state": "STATE_CODE",
+  "zip_code": "ZIP_CODE",
+  "market_value": 0,
+  "last_sold_date": "YYYY-MM-DD",
+  "last_sold_price": 0,
+  "property_tax": 0,
+  "hoa_fee": 0,
+  "square_footage_per_dollar": 0,
+  "features": [
+    "Feature 1",
+    "Feature 2",
+    "Feature 3"
+  ],
+  "nearby_amenities": [
+    "Amenity 1 - Distance",
+    "Amenity 2 - Distance", 
+    "Amenity 3 - Distance"
+  ]
+}

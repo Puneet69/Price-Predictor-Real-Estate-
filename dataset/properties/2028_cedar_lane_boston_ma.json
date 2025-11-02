@@ -1,0 +1,48 @@
+{
+  "id": 10,
+  "title": "Minimalist Smart Home",
+  "address": "2028 Cedar Lane, Boston, MA",
+  "property_type": "Condo",
+  "lot_size": 0,
+  "square_footage": 1900,
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "garage": 1,
+  "year_built": 1995,
+  "market_value": 700000,
+  "last_sold_price": 643735,
+  "last_sold_date": "2024-03-28",
+  "property_tax": 8400,
+  "hoa_fee": 677,
+  "amenities": [
+    "minimalist_design",
+    "smart_home",
+    "energy_efficient"
+  ],
+  "neighborhood_features": [
+    "historic_district",
+    "universities",
+    "walkable",
+    "public_transport"
+  ],
+  "condition": "good",
+  "city": "Boston",
+  "state": "MA",
+  "neighborhood": "Boston Residential",
+  "image_url": "https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg",
+  "features": [
+    "Minimalist Smart Home",
+    "3 bedrooms, 2 bathrooms",
+    "1,900 sq ft",
+    "Built in 1995",
+    "Minimalist Design",
+    "Smart Appliances",
+    "Energy Efficient"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.6 miles",
+    "Public transportation - 0.3 miles",
+    "School - 0.2 miles",
+    "Hospital - 1.4 miles"
+  ]
+}

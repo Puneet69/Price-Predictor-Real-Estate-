@@ -1,0 +1,96 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "address": "5949 Elm Street, New York, NY",
+      "property_type": "Condo",
+      "market_value": 450000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+    },
+    {
+      "id": 2,
+      "address": "3796 Oak Avenue, Miami, FL",
+      "property_type": "Condo",
+      "market_value": 380000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg"
+    },
+    {
+      "id": 3,
+      "address": "433 Oak Avenue, Los Angeles, CA",
+      "property_type": "SFH",
+      "market_value": 850000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg"
+    },
+    {
+      "id": 4,
+      "address": "2356 Oak Avenue, Austin, TX",
+      "property_type": "Condo",
+      "market_value": 250000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "image_url": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+    },
+    {
+      "id": 5,
+      "address": "6404 Second Avenue, San Francisco, CA",
+      "property_type": "SFH",
+      "market_value": 1200000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "image_url": "https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg"
+    },
+    {
+      "id": 6,
+      "address": "4404 Broadway, New York, NY",
+      "property_type": "Condo",
+      "market_value": 300000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "image_url": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+    },
+    {
+      "id": 7,
+      "address": "7559 Main Street, Chicago, IL",
+      "property_type": "SFH",
+      "market_value": 750000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg"
+    },
+    {
+      "id": 8,
+      "address": "8930 Elm Street, Dallas, TX",
+      "property_type": "SFH",
+      "market_value": 600000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "image_url": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg"
+    },
+    {
+      "id": 9,
+      "address": "8291 Broadway, Seattle, WA",
+      "property_type": "SFH",
+      "market_value": 920000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+    },
+    {
+      "id": 10,
+      "address": "2028 Cedar Lane, Boston, MA",
+      "property_type": "Condo",
+      "market_value": 700000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg"
+    }
+  ],
+  "total_properties": 10,
+  "last_updated": "2025-11-01T17:50:16.814365"
+}

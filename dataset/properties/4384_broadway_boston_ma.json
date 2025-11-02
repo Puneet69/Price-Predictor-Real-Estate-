@@ -1,0 +1,48 @@
+{
+  "id": 10,
+  "title": "Minimalist Smart Home",
+  "address": "4384 Broadway, Boston, MA",
+  "property_type": "Condo",
+  "lot_size": 0,
+  "square_footage": 1900,
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "garage": 0,
+  "year_built": 2003,
+  "market_value": 700000,
+  "last_sold_price": 633609,
+  "last_sold_date": "2024-03-20",
+  "property_tax": 8400,
+  "hoa_fee": 2,
+  "amenities": [
+    "minimalist_design",
+    "smart_home",
+    "energy_efficient"
+  ],
+  "neighborhood_features": [
+    "historic_district",
+    "universities",
+    "walkable",
+    "public_transport"
+  ],
+  "condition": "good",
+  "city": "Boston",
+  "state": "MA",
+  "neighborhood": "Boston Residential",
+  "image_url": "https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg",
+  "features": [
+    "Minimalist Smart Home",
+    "3 bedrooms, 2 bathrooms",
+    "1,900 sq ft",
+    "Built in 2003",
+    "Minimalist Design",
+    "Smart Appliances",
+    "Energy Efficient"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.3 miles",
+    "Public transportation - 0.1 miles",
+    "School - 0.5 miles",
+    "Hospital - 1.9 miles"
+  ]
+}

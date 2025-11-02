@@ -1,0 +1,48 @@
+{
+  "id": 4,
+  "title": "1 BHK Budget Apartment",
+  "address": "2356 Oak Avenue, Austin, TX",
+  "property_type": "Condo",
+  "lot_size": 0,
+  "square_footage": 800,
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "garage": 0,
+  "year_built": 1993,
+  "market_value": 250000,
+  "last_sold_price": 217953,
+  "last_sold_date": "2023-01-02",
+  "property_tax": 3000,
+  "hoa_fee": 595,
+  "amenities": [
+    "fitness_center",
+    "laundry",
+    "security_system"
+  ],
+  "neighborhood_features": [
+    "music_scene",
+    "food_trucks",
+    "tech_companies",
+    "outdoor_activities"
+  ],
+  "condition": "good",
+  "city": "Austin",
+  "state": "TX",
+  "neighborhood": "Austin Residential",
+  "image_url": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+  "features": [
+    "1 BHK Budget Apartment",
+    "1 bedrooms, 1 bathrooms",
+    "800 sq ft",
+    "Built in 1993",
+    "Gym",
+    "Laundry",
+    "Security"
+  ],
+  "nearby_amenities": [
+    "Shopping center - 0.3 miles",
+    "Public transportation - 0.4 miles",
+    "School - 0.3 miles",
+    "Hospital - 1.9 miles"
+  ]
+}

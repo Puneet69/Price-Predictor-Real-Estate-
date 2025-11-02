@@ -1,0 +1,35 @@
+{
+  "address": "789 Pine Road, Seattle, WA 98101",
+  "property_type": "SFH",
+  "lot_area": 7200,
+  "building_area": 0,
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "year_built": 2015,
+  "has_pool": false,
+  "has_garage": true,
+  "school_rating": 7,
+  "neighborhood": "Capitol Hill",
+  "city": "Seattle",
+  "state": "WA",
+  "zip_code": "98101",
+  "market_value": 850000,
+  "last_sold_date": "2023-09-10",
+  "last_sold_price": 780000,
+  "property_tax": 8500,
+  "hoa_fee": 0,
+  "square_footage_per_dollar": 0.35,
+  "features": [
+    "Open floor plan",
+    "Mountain views",
+    "Energy efficient",
+    "Large backyard",
+    "Two-car garage"
+  ],
+  "nearby_amenities": [
+    "Pike Place Market - 1.2 miles",
+    "Light rail - 0.6 miles",
+    "Volunteer Park - 0.4 miles",
+    "Elementary school - 0.2 miles"
+  ]
+}
