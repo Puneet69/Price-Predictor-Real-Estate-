@@ -1,0 +1,9 @@
+# Railway Nixpacks Configuration for Frontend
+[phases.build]
+cmd = "npm ci && npm run build"
+
+[phases.start]
+cmd = "npx serve -s build -l $PORT"
+
+[variables]
+NODE_VERSION = "18"
