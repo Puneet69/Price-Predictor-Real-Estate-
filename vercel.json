@@ -1,15 +1,8 @@
 {
-  "name": "property-comparison-app",
+  "name": "property-comparison-frontend",
   "version": 2,
-  "builds": [
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
-    }
-  ],
+  "buildCommand": "cd frontend && npm ci && npm run build",
+  "outputDirectory": "frontend/build",
   "routes": [
     {
       "src": "/static/(.*)",
@@ -24,6 +17,6 @@
     }
   ],
   "env": {
-    "REACT_APP_API_URL": "@backend-url"
+    "REACT_APP_API_URL": "https://property-comparison-backend.onrender.com"
   }
 }

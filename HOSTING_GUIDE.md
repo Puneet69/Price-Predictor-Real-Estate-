@@ -10,18 +10,18 @@ Your Property Comparison App includes:
 
 ---
 
-## 🏆 **Recommended Hosting Platform**
+## 🏆 **Recommended Hosting Strategy**
 
-### **1. 🎨 Render (Recommended - Best Free Tier)**
-**Why Render?**
-- ✅ **Free Tier**: 750 hours/month for backend
-- ✅ **Free Static Sites**: Unlimited frontend hosting
-- ✅ **Auto-Deploy**: GitHub integration
-- ✅ **SSL**: Free HTTPS certificates
-- ✅ **No Credit Card**: Required for free tier
-- ✅ **Better Support**: Excellent documentation and community
+### **1. 🚀 Render Backend + Vercel Frontend (BEST APPROACH)**
+**Why This Hybrid Strategy?**
+- ✅ **Render Backend**: FREE Python/FastAPI hosting (750 hours/month)
+- ✅ **Vercel Frontend**: FREE React hosting with global CDN
+- ✅ **Optimal Performance**: Backend optimized for APIs, Frontend optimized for speed
+- ✅ **Auto-Deploy**: Both platforms support GitHub integration
+- ✅ **No Credit Card**: Required for either service
+- ✅ **Best of Both**: Specialized platforms for each service type
 
-**Cost**: **COMPLETELY FREE** for your use case!
+**Cost**: **COMPLETELY FREE** for both services!
 
 ### **2. 🌊 DigitalOcean App Platform (Alternative)**
 **Why DigitalOcean?**
@@ -41,40 +41,40 @@ Your Property Comparison App includes:
 
 ## 🚀 **Step-by-Step Deployment Guide**
 
-### **Option 1: Render (Recommended)**
+### **Option 1: Render Backend + Vercel Frontend (RECOMMENDED)**
 
-#### **Step 1: Sign up for Render**
-1. Go to [render.com](https://render.com)
-2. Click "Get Started for Free" 
-3. Sign up with your GitHub account
-4. Authorize Render to access your repositories
-
-#### **Step 2: Deploy Backend (FastAPI)**
-1. Click "New +" → "Web Service"
-2. Connect repo: `Puneet69/Price-Predictor-Real-Estate-`
-3. Configure:
+#### **Step 1: Deploy Backend to Render**
+1. Go to [render.com](https://render.com) and sign up with GitHub
+2. Click "New +" → "Web Service"
+3. Connect repo: `Puneet69/Price-Predictor-Real-Estate-`
+4. Configure:
+   - **Name**: `property-comparison-backend`
    - **Root Directory**: `backend`
    - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `gunicorn main:app --host 0.0.0.0 --port $PORT`
+5. Add Environment Variable:
+   ```bash
+   MONGODB_URI=mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mongodb.net/property_comparison?retryWrites=true&w=majority&appName=RealEstate
+   ```
+6. Deploy and note your backend URL
 
-#### **Step 3: Set Environment Variables**
-Add in Render dashboard:
-```bash
-MONGODB_URI=mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mongodb.net/property_comparison?retryWrites=true&w=majority&appName=RealEstate
-```
-
-#### **Step 4: Deploy Frontend (React)**
-1. Click "New +" → "Static Site"
-2. Same GitHub repo: `Puneet69/Price-Predictor-Real-Estate-`
+#### **Step 2: Deploy Frontend to Vercel**
+1. Go to [vercel.com](https://vercel.com) and sign up with GitHub
+2. Click "Import Project" → Select your repo
 3. Configure:
+   - **Framework**: Create React App
    - **Root Directory**: `frontend`
-   - **Build Command**: `npm ci && npm run build`
-   - **Publish Directory**: `build`
-   - **Environment Variable**: `REACT_APP_API_URL=https://your-backend.onrender.com`
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `build`
+4. Add Environment Variable:
+   ```bash
+   REACT_APP_API_URL=https://your-backend-url.onrender.com
+   ```
+5. Deploy - you're live!
 
-#### **Step 5: You're Live!**
-- Backend: `https://property-comparison-backend.onrender.com`
-- Frontend: `https://property-comparison-frontend.onrender.com`
+#### **Results:**
+- **Backend**: `https://property-comparison-backend.onrender.com`
+- **Frontend**: `https://property-comparison-frontend.vercel.app`
 
 ---
 
@@ -99,10 +99,10 @@ MONGODB_URI=mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mo
 
 ## 🔧 **Quick Deployment Commands**
 
-### **Using Render (Recommended):**
+### **Using Render + Vercel (Recommended):**
 ```bash
-# Run the deployment helper script
-./deploy_render.sh
+# Run the hybrid deployment helper script
+./deploy_render_vercel.sh
 
 # Or deploy manually by pushing to GitHub:
 git add .
@@ -111,7 +111,8 @@ git push origin main
 ```
 
 ### **One-Click Deploy:**
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Puneet69/Price-Predictor-Real-Estate-)
+- **Backend**: [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Puneet69/Price-Predictor-Real-Estate-)
+- **Frontend**: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Puneet69/Price-Predictor-Real-Estate-&root-directory=frontend)
 
 ---
 
