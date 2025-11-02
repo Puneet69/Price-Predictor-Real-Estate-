@@ -11,14 +11,18 @@ from datetime import datetime
 import re
 
 class PropertyMongoStorage:
-    def __init__(self, connection_string: str = "mongodb://localhost:27017/", database_name: str = "property_comparison"):
+    def __init__(self, connection_string: str = None, database_name: str = "property_comparison"):
         """
         Initialize MongoDB connection
         
         Args:
-            connection_string: MongoDB connection string
+            connection_string: MongoDB connection string (defaults to Atlas)
             database_name: Name of the database to use
         """
+        # Default to MongoDB Atlas connection
+        if connection_string is None:
+            connection_string = "mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mongodb.net/?retryWrites=true&w=majority&appName=RealEstate"
+        
         self.connection_string = connection_string
         self.database_name = database_name
         self.client = None
