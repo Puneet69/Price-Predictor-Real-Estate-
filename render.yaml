@@ -12,10 +12,8 @@ services:
       - key: PYTHON_VERSION
         value: "3.11"
 
-  - type: web
+  - type: static
     name: property-comparison-frontend  
-    env: static
-    plan: free
     buildCommand: npm ci && npm run build
     staticPublishPath: ./build
     envVars:
