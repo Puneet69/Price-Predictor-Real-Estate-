@@ -10,28 +10,20 @@ Your Property Comparison App includes:
 
 ---
 
-## 🏆 **Recommended Hosting Platforms**
+## 🏆 **Recommended Hosting Platform**
 
-### **1. 🚂 Railway (Recommended - Easiest)**
-**Why Railway?**
-- ✅ **Free Tier**: $5 credit monthly  
-- ✅ **Auto-Deploy**: Connect GitHub, auto-deploy on push
-- ✅ **Zero Config**: Detects your app automatically
-- ✅ **Built-in Domains**: Instant HTTPS URLs
-- ✅ **Environment Variables**: Easy setup
-
-**Cost**: FREE (with $5/month credit), then $5-20/month
-
-### **2. 🎨 Render (Great Alternative)**
+### **1. 🎨 Render (Recommended - Best Free Tier)**
 **Why Render?**
-- ✅ **Free Tier**: 750 hours/month free
-- ✅ **Static Sites**: Free for frontend
+- ✅ **Free Tier**: 750 hours/month for backend
+- ✅ **Free Static Sites**: Unlimited frontend hosting
 - ✅ **Auto-Deploy**: GitHub integration
 - ✅ **SSL**: Free HTTPS certificates
+- ✅ **No Credit Card**: Required for free tier
+- ✅ **Better Support**: Excellent documentation and community
 
-**Cost**: FREE for static sites, $7/month for backend
+**Cost**: **COMPLETELY FREE** for your use case!
 
-### **3. 🌊 DigitalOcean App Platform**
+### **2. 🌊 DigitalOcean App Platform (Alternative)**
 **Why DigitalOcean?**
 - ✅ **Reliable**: Enterprise-grade infrastructure
 - ✅ **App Platform**: Easy deployment
@@ -40,74 +32,53 @@ Your Property Comparison App includes:
 
 **Cost**: $5-12/month per service
 
-### **4. ☁️ Vercel + Railway Combo**
+### **3. ☁️ Vercel + Render Combo (Advanced)**
 - **Frontend**: Deploy to Vercel (FREE)
-- **Backend**: Deploy to Railway ($5/month)
-- **Best Performance**: Optimized React deployment
+- **Backend**: Deploy to Render (FREE)
+- **Best Performance**: Optimized for global reach
 
 ---
 
 ## 🚀 **Step-by-Step Deployment Guide**
 
-### **Option 1: Railway (Recommended)**
-
-#### **Step 1: Sign up for Railway**
-1. Go to [railway.app](https://railway.app)
-2. Sign up with your GitHub account
-3. Connect your GitHub repository
-
-#### **Step 2: Deploy Backend**
-1. Click "New Project" → "Deploy from GitHub repo"
-2. Select `Puneet69/Price-Predictor-Real-Estate-`
-3. Railway will detect your app automatically
-4. It will use your `railway.json` configuration
-
-#### **Step 3: Set Environment Variables**
-In Railway dashboard:
-```bash
-MONGODB_URI=mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mongodb.net/property_comparison?retryWrites=true&w=majority&appName=RealEstate
-```
-
-#### **Step 4: Deploy!**
-- Railway will automatically build and deploy
-- You'll get URLs like:
-  - Backend: `https://your-app-production.up.railway.app`
-  - Frontend: `https://your-frontend-production.up.railway.app`
-
----
-
-### **Option 2: Render**
+### **Option 1: Render (Recommended)**
 
 #### **Step 1: Sign up for Render**
 1. Go to [render.com](https://render.com)
-2. Sign up with GitHub account
-3. Connect your repository
+2. Click "Get Started for Free" 
+3. Sign up with your GitHub account
+4. Authorize Render to access your repositories
 
-#### **Step 2: Deploy Backend**
-1. Click "New" → "Web Service"
-2. Connect GitHub repo: `Puneet69/Price-Predictor-Real-Estate-`
+#### **Step 2: Deploy Backend (FastAPI)**
+1. Click "New +" → "Web Service"
+2. Connect repo: `Puneet69/Price-Predictor-Real-Estate-`
 3. Configure:
    - **Root Directory**: `backend`
    - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+   - **Start Command**: `gunicorn main:app --host 0.0.0.0 --port $PORT`
 
-#### **Step 3: Deploy Frontend**
-1. Click "New" → "Static Site"
-2. Same GitHub repo
-3. Configure:
-   - **Root Directory**: `frontend`
-   - **Build Command**: `npm run build`
-   - **Publish Directory**: `build`
-
-#### **Step 4: Environment Variables**
+#### **Step 3: Set Environment Variables**
 Add in Render dashboard:
 ```bash
 MONGODB_URI=mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mongodb.net/property_comparison?retryWrites=true&w=majority&appName=RealEstate
 ```
 
+#### **Step 4: Deploy Frontend (React)**
+1. Click "New +" → "Static Site"
+2. Same GitHub repo: `Puneet69/Price-Predictor-Real-Estate-`
+3. Configure:
+   - **Root Directory**: `frontend`
+   - **Build Command**: `npm ci && npm run build`
+   - **Publish Directory**: `build`
+   - **Environment Variable**: `REACT_APP_API_URL=https://your-backend.onrender.com`
+
+#### **Step 5: You're Live!**
+- Backend: `https://property-comparison-backend.onrender.com`
+- Frontend: `https://property-comparison-frontend.onrender.com`
+
 ---
 
-### **Option 3: DigitalOcean App Platform**
+### **Option 2: DigitalOcean App Platform**
 
 #### **Step 1: Create DigitalOcean Account**
 1. Go to [digitalocean.com](https://digitalocean.com)
@@ -128,26 +99,19 @@ MONGODB_URI=mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mo
 
 ## 🔧 **Quick Deployment Commands**
 
-### **Using Railway CLI:**
+### **Using Render (Recommended):**
 ```bash
-# Install Railway CLI
-npm install -g @railway/cli
+# Run the deployment helper script
+./deploy_render.sh
 
-# Login and deploy
-railway login
-cd "/Users/puneet/Desktop/Case Study 2"
-railway link
-railway up
-```
-
-### **Using Render:**
-```bash
-# Render auto-deploys from GitHub
-# Just push to main branch:
+# Or deploy manually by pushing to GitHub:
 git add .
 git commit -m "Deploy to production"
 git push origin main
 ```
+
+### **One-Click Deploy:**
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Puneet69/Price-Predictor-Real-Estate-)
 
 ---
 
@@ -183,15 +147,10 @@ git push origin main
 
 ## 💰 **Cost Breakdown**
 
-### **Railway (Recommended):**
-- **Free Tier**: $5 credit/month
-- **Hobby Plan**: $5/month unlimited
-- **Total Monthly**: $0-5
-
-### **Render:**
-- **Static Site**: FREE
-- **Web Service**: $7/month  
-- **Total Monthly**: $7
+### **Render (Recommended):**
+- **Backend**: FREE (750 hours/month)
+- **Frontend**: FREE (unlimited static hosting)
+- **Total Monthly**: **$0** 🎉
 
 ### **DigitalOcean:**
 - **Basic App**: $5/month
@@ -203,21 +162,21 @@ git push origin main
 - **Shared across all projects**
 - **Total Monthly**: $0
 
+### **🎯 Total Cost with Render: $0/month**
+
 ---
 
-## 🚀 **FASTEST DEPLOYMENT (Railway)**
+## 🚀 **FASTEST DEPLOYMENT (Render)**
 
 Want to deploy RIGHT NOW? Here's the fastest way:
 
-1. **Go to**: [railway.app](https://railway.app)
-2. **Sign in** with GitHub
-3. **New Project** → **Deploy from GitHub**
-4. **Select**: `Puneet69/Price-Predictor-Real-Estate-`
-5. **Add Environment Variable**:
-   ```
-   MONGODB_URI=mongodb+srv://price_predictor:vlMUA2FIr48bnJWO@realestate.caqfzde.mongodb.net/property_comparison?retryWrites=true&w=majority&appName=RealEstate
-   ```
-6. **Deploy** - Live in 3-5 minutes!
+1. **Go to**: [render.com](https://render.com)
+2. **Sign up** with GitHub (completely free)
+3. **Deploy Backend**: New + → Web Service → Your repo → Root: `backend`
+4. **Add MongoDB URI** environment variable
+5. **Deploy Frontend**: New + → Static Site → Your repo → Root: `frontend`
+6. **Add API URL** to frontend environment variables
+7. **Deploy** - Live in 5 minutes! **COMPLETELY FREE!** 🎉
 
 ---
 
